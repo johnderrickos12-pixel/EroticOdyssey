@@ -10,7 +10,7 @@
     <header>
         <nav>
             <div class="logo">
-                <h1>📸 Photographer</h1>
+                <h1>[Photographer Name]</h1>
             </div>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -24,7 +24,7 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h2>Capturing Moments, Creating Memories</h2>
-            <p>Passionate photographer dedicated to capturing the beauty in every shot.</p>
+            <p>Stunning photography for every occasion.</p>
             <a href="#portfolio" class="btn">View My Work</a>
         </div>
     </section>
@@ -32,42 +32,54 @@
     <section id="portfolio" class="portfolio">
         <h2>My Portfolio</h2>
         <div class="gallery">
-            <img src="https://via.placeholder.com/400x300/CCCCCC/FFFFFF?text=Landscape+1" alt="Landscape Photography 1">
-            <img src="https://via.placeholder.com/400x300/CCCCCC/FFFFFF?text=Portrait+1" alt="Portrait Photography 1">
-            <img src="https://via.placeholder.com/400x300/CCCCCC/FFFFFF?text=Wedding+1" alt="Wedding Photography 1">
-            <img src="https://via.placeholder.com/400x300/CCCCCC/FFFFFF?text=Nature+1" alt="Nature Photography 1">
-            <img src="https://via.placeholder.com/400x300/CCCCCC/FFFFFF?text=Event+1" alt="Event Photography 1">
-            <img src="https://via.placeholder.com/400x300/CCCCCC/FFFFFF?text=Fashion+1" alt="Fashion Photography 1">
+            <!-- Example Portfolio Items -->
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/400x300?text=Landscape" alt="Landscape Photography">
+                <div class="overlay">Landscape</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/400x300?text=Portrait" alt="Portrait Photography">
+                <div class="overlay">Portrait</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/400x300?text=Wedding" alt="Wedding Photography">
+                <div class="overlay">Wedding</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/400x300?text=Event" alt="Event Photography">
+                <div class="overlay">Event</div>
+            </div>
+            <!-- Add more images here -->
         </div>
     </section>
 
     <section id="about" class="about">
-        <h2>About Me</h2>
         <div class="about-content">
-            <img src="https://via.placeholder.com/200x200/CCCCCC/FFFFFF?text=Profile" alt="Photographer Profile">
-            <p>Hello! I'm a professional photographer with a keen eye for detail and a passion for storytelling through images. With X years of experience, I specialize in [mention specializations e.g., portrait, wedding, landscape] photography. My goal is to create timeless photographs that you will cherish for a lifetime.</p>
-            <p>I believe every picture tells a story, and I strive to capture those unique moments that reflect true emotions and beauty. Let's create something beautiful together!</p>
+            <h2>About Me</h2>
+            <img src="https://via.placeholder.com/200x200?text=Photographer" alt="Photographer Name" class="profile-pic">
+            <p>Hi, I'm [Photographer Name], a passionate photographer with a keen eye for detail and a love for capturing the beauty in everyday life. My journey began [year] and since then, I've dedicated myself to telling stories through my lens.</p>
+            <p>Whether it's the grandeur of a landscape, the intimacy of a portrait, or the candid joy of an event, I strive to create timeless images that you'll cherish forever.</p>
         </div>
     </section>
 
     <section id="contact" class="contact">
-        <h2>Get In Touch</h2>
-        <p>Have a project in mind or want to book a session? Feel free to reach out!</p>
-        <form>
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Your Email">
-            <textarea placeholder="Your Message"></textarea>
+        <h2>Get in Touch</h2>
+        <p>Ready to capture your special moments? Contact me today!</p>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
             <button type="submit" class="btn">Send Message</button>
         </form>
         <div class="social-links">
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">Twitter</a>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2023 Photographer Portfolio. All rights reserved.</p>
+        <p>&copy; 2023 [Photographer Name]. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
